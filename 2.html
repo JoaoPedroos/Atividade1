@@ -4,9 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Partidas Csgo</title>
+    <title>Partidas CSGO</title>
+    <style>
+
+    body{
+    background-color: #181b1f;
+    }
+    #iframee{
+        position: relative;
+        width: 1000px;
+        height: 600px;
+        overflow: hidden;
+    }
+    #iframe{
+        position: absolute;            
+        top: -50px;
+        left: -25px;
+        width: 1065px;
+        height: 1080px;
+    }
+    #frame{
+        position: relative;
+        width: 990px;
+        height: 1000px;
+        overflow: hidden;
+        top: 20px;
+    }
+    #iframeee{
+        position: absolute;            
+        top: -50px;
+        left: -25px;
+        width: 1060px;
+        height: 1080px;
+    }
+    .partidas{
+        color: whitesmoke;
+        font-family: Arial;
+        margin-top: -10px;
+    }
+    hr{
+        margin-top: 50px;
+    }
+    a{
+        color: white;
+    }
+    #inicio{
+        color: #181b1f;
+        background-color: #827777;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    #inicio2{
+        margin-top: 10px;
+    }
+    </style>
 </head>
 <body>
+    <div id="inicio2">
+    <a id="inicio" href="main.html">Início</a>
+    </div>
+    <br>
+    <br>
+    <h2 class="partidas">PARTIDAS AO VIVO</h2>
+
+    <div id="iframee">
+        <iframe id="iframe" src="https://www.hltv.org/live" frameborder="0"></iframe>
+    </div>
+
+    <hr>
     
+    <h2 class="partidas">PARTIDAS</h2>
+
+    <div id="frame">
+        <iframe id="iframeee" src="https://www.hltv.org/matches" frameborder="0"></iframe>
+    </div>
+    <br>
+    <br>
+    <br>
+    <a id="fontes">Fonte: Site do</a> <a href="https://www.htlv.org" target="_blank">Hltv.org</a>
+    <br>
+    <br>
 </body>
 </html>
